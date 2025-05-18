@@ -7,6 +7,11 @@ We have 3 main components:
 The image dectection module is the key and unique enhancement in this project, that allows users to easily and effectively check for malicious links and messages. The system is a web interface made using React and Flask API. The user interface provides a simple yet effective way to collect input from user and show the status of the associated content.
 What sets this project apart is its multi-modal detection capability, combining traditional input forms with image-based analysis, which is rarely seen in similar tools. By integrating OCR-based screenshot analysis, it bridges the gap where links and messages are shared as images, a common tactic used by attackers to evade detection. Moreover, the system’s use of hybrid verification—merging machine learning prediction with real-time VirusTotal API checks—adds a robust layer of validation. The modular architecture, built on React and Flask, ensures scalability and easy maintenance, while the high accuracy (above 90%) underlines the system’s reliability. This holistic approach makes the solution well-suited for real-world deployment, especially in messaging and social media environments where phishing is rampant. 
 
+## 🚀 Demo
+
+![App Demo](demo.gif)
+
+This demo shows how the user can input a suspicious link, message, or screenshot, and the system detects phishing content using ML and OCR techniques.
 
 
 
